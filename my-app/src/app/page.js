@@ -1,9 +1,15 @@
-import Header from './Header'
+import Header from "./components/home/Header";
+import Title from "./components/home/Title";
+import Subtitle from "./components/home/SubTitle";
 
 export default function Home() {
   return (
-    <main>
+    <div className="h-screen">
       <Header />
-    </main>
+      <main>
+        <Title />
+        <Subtitle />
+      </main>
+    </div>
   );
 }
