@@ -1,6 +1,7 @@
 import Header from "./components/home/Header";
 import Title from "./components/home/Title";
 import Subtitle from "./components/home/SubTitle";
+import DivCards from "./components/BusinessCard/DivCards";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <main>
         <Title />
         <Subtitle />
+        <DivCards />
       </main>
     </div>
   );
