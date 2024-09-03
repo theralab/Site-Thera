@@ -1,14 +1,14 @@
 import Header from "./components/home/Header";
-import Title from "./components/home/Title";
-import Subtitle from "./components/home/SubTitle";
+import TitleSection from "./components/home/TitleSection";
 
 export default function Home() {
   return (
     <div className="h-screen">
-      <Header />
+      <div className="mx-3">
+        <Header />
+      </div>
       <main>
-        <Title />
-        <Subtitle />
+        <TitleSection />
       </main>
     </div>
   );
