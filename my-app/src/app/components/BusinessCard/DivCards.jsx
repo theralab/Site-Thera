@@ -27,6 +27,5 @@ export default function DivCards() {
         com qualquer um de nos."
       />
     </div>
-
   )
 }
