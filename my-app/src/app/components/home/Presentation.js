@@ -1,6 +1,8 @@
+import LanguagesGrid from "../LanguagesGrid/LanguagesGrid";
+
 export default function Presentation() {
   return (
-    <div className="flex flex-col text-white bg-gradient-to-r from-pink-500 to-violet-600">
+    <div className="flex flex-col h-screen text-white bg-gradient-to-r from-pink-500 to-violet-600">
       {/* TODO: Encontrar melhor organização para os textos (formatação) */}
       <div className="mx-3 mt-3">
         <span className="text-2xl font-semibold">
@@ -13,7 +15,8 @@ export default function Presentation() {
         </p>
       </div>
       <div>
-      {/* TODO: Grid com as imagens das linguagens de programação */}
+        {/* TODO: Grid com as imagens das linguagens de programação */}
+        <LanguagesGrid />
       </div>
     </div>
   );
