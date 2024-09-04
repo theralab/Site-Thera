@@ -1,6 +1,7 @@
 import Header from "./components/home/Header";
 import TitleSection from "./components/home/TitleSection";
 import AboutSection from "./components/home/AboutSection";
+import Presentation from "./components/home/Presentation";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <main>
         <TitleSection />
         <AboutSection />
+        <Presentation />
       </main>
     </div>
   );
