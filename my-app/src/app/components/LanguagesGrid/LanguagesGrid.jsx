@@ -9,8 +9,8 @@ import JAVA from "../../assets/springboot.svg"
 
 export default function LanguagesGrid() {
   return (
-    <div className="grid grid-cols-2 grid-flow-row">
-      <Language name="JavaScript" symbol={JS} />
+    <div className="grid md:grid-cols-4 grid-cols-2 grid-rows-2 gap-x-6 gap-y-4 my-4">
+      <Language name="JavaScript" symbol={{ JS }} />
       <Language name="Python" symbol={PY} />
       <Language name="TypeScript" symbol={TS} />
       <Language name="C++" symbol={CPP} />
