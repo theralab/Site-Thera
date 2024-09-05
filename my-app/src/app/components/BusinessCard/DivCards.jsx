@@ -1,6 +1,7 @@
 import Card from "./Card";
 
 export default function DivCards() {
+
   return (
     <div className="flex mb-4 flex-row scroll-smooth sm:scroll-auto p-4 gap-x-5 overflow-scroll snap-x">
       <Card
