@@ -7,7 +7,7 @@ export default function Language({ symbol, name }) {
   return (
     <div className="rounded-md w-full flex items-center p-2 bg-white text-black font-bold">
       <Image
-        className="bg-gray-300 rounded p-1"
+        className="bg-gray-100 rounded p-1"
         width={size}
         height={size}
         src={symbol}
