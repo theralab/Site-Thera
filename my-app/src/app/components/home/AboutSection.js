@@ -4,7 +4,7 @@ import DivCards from "../BusinessCard/DivCards";
 
 export default function AboutSection() {
   return (
-    <div className="bg-gradient-to-t from-slate-50 to-zinc-100">
+    <div className="h-full justify-center items-center bg-gradient-to-t from-slate-50 to-zinc-100">
       <div className="flex flex-col justify-center items-center p-4">
         <span className="text-2xl font-semibold">Quem nós somos</span>
         <p className="text-sm font-extralight text-gray-700">
