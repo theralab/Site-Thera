@@ -5,9 +5,9 @@ export default function Language({ symbol, name }) {
   const size = 50
 
   return (
-    <div className="rounded-md w-full flex items-center p-2 bg-white text-black font-bold">
+    <div className="rounded-md w-full h-16 flex items-center p-2 bg-white text-black font-bold overflow-hidden">
       <Image
-        className="bg-gray-100 rounded p-1"
+        className="rounded p-1"
         width={size}
         height={size}
         src={symbol}

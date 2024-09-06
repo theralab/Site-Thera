@@ -12,7 +12,7 @@ export default function AboutSection() {
         </p>
       </div>
       <div className="flex justify-center items-center">
-        {/* Melhorar responsividade quando implementar versão desktop */}
+        {/* TODO: Melhorar responsividade quando implementar versão desktop */}
         <Image
           className="mx-3 w-screen sm:max-w-96"
           src={CS}

@@ -17,6 +17,7 @@ export default function LanguagesGrid() {
       <Language name="C#" symbol={CS} />
       <Language name="HTML" symbol={HTML} />
       <Language name="Java" symbol={JAVA} />
+      <Language name="Java" symbol={JAVA} /> { /* Para fins de preenchimento */ }
     </div>
   )
 }

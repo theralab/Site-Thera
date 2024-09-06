@@ -15,7 +15,7 @@ import SPRING from "../../assets/springboot.svg"
 export default function ToolGrid() {
 
   return (
-    <div className="grid grid-cols-3 grid-rows-3 gap-y-6 py-4">
+    <div className="grid grid-cols-3 grid-rows-3 gap-y-5 gap-x-2 py-4">
       <Tool symbol={NEXT} />
       <Tool symbol={REACT} />
       <Tool symbol={TAILWIND} />
