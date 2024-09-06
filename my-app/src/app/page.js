@@ -2,9 +2,10 @@ import Header from "./components/home/Header";
 import TitleSection from "./components/home/TitleSection";
 import AboutSection from "./components/home/AboutSection";
 import Presentation from "./components/home/Presentation";
+import ToolSection from "./components/home/ToolSection";
 
-// Adicionar para mobile 
-const removedHeader = "<div className=mx-3><Header /></div>"
+// Adicionar para mobile
+const removedHeader = "<div className=mx-3><Header /></div>";
 
 export default function Home() {
   return (
@@ -20,6 +21,10 @@ export default function Home() {
 
         <div className="snap-center">
           <Presentation />
+        </div>
+
+        <div className="snap-center">
+          <ToolSection />
         </div>
       </main>
     </div>
