@@ -5,7 +5,12 @@ import TS from "../../assets/language-ts.png"
 import CPP from "../../assets/language-cpp.png"
 import CS from "../../assets/language-cs.png"
 import HTML from "../../assets/language-html.png"
-import JAVA from "../../assets/springboot.svg"
+import JAVA from "../../assets/language-java.png"
+import JSON from "../../assets/language-json.png"
+import MD from "../../assets/language-markdown.png"
+import PHP from "../../assets/language-php.png"
+import YAML from "../../assets/language-yaml.png"
+import SHELL from "../../assets/language-powershell.png"
 
 export default function LanguagesGrid() {
   return (
@@ -17,7 +22,11 @@ export default function LanguagesGrid() {
       <Language name="C#" symbol={CS} />
       <Language name="HTML" symbol={HTML} />
       <Language name="Java" symbol={JAVA} />
-      <Language name="Java" symbol={JAVA} /> { /* Para fins de preenchimento */ }
+      <Language name="JSON" symbol={JSON} />
+      <Language name="Markdown" symbol={MD} />
+      <Language name="Powershell" symbol={SHELL} />
+      <Language name="PHP" symbol={PHP} />
+      <Language name="YAML" symbol={YAML} />
     </div>
   )
 }

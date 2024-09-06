@@ -3,6 +3,7 @@ import TitleSection from "./components/home/TitleSection";
 import AboutSection from "./components/home/AboutSection";
 import Presentation from "./components/home/Presentation";
 import ToolSection from "./components/home/ToolSection";
+import FooterSection from "./components/home/FooterSection";
 
 // Adicionar para mobile
 const removedHeader = "<div className=mx-3><Header /></div>";
@@ -26,6 +27,11 @@ export default function Home() {
         <div className="snap-center">
           <ToolSection />
         </div>
+
+        <div className="snap-center">
+          <FooterSection />
+        </div>
+
       </main>
     </div>
   );

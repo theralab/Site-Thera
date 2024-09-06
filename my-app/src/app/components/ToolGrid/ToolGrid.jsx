@@ -1,4 +1,3 @@
-
 import Tool from "./Tool";
 import NEXT from "../../assets/nextjs.svg"
 import REACT from "../../assets/react.svg"
@@ -9,8 +8,6 @@ import VSCODE from "../../assets/vscode.svg"
 import NODE from "../../assets/nodejs.svg"
 import LINUX from "../../assets/linux.svg"
 import SPRING from "../../assets/springboot.svg"
-
-
 
 export default function ToolGrid() {
 
