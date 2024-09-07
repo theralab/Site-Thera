@@ -1,4 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities {
+
+  /* Ainda não há uma classe específica do tailwindcss que possa esconder a barra de rolagem */ 
+  /* Oculta a barra de rolagem para Chrome, Safari e Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Oculta a barra de rolagem para Internet Explorer, Edge e Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* Internet Explorer e Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+.text-title {
+  font-size: 26px;
+}

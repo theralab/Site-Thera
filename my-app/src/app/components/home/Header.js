@@ -43,7 +43,7 @@ export default function Header() {
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
-              className="w-full text-gray-800"
+              className="w-full text-gray-500 hover:text-black"
               href="#"
               size="lg"
             >

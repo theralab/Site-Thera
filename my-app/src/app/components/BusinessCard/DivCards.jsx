@@ -3,7 +3,7 @@ import Card from "./Card";
 export default function DivCards() {
 
   return (
-    <div className="flex flex-row scroll-smooth sm:scroll-auto p-4 gap-x-5 overflow-scroll snap-x">
+    <div className="flex flex-row scroll-smooth sm:scroll-auto p-4 gap-x-5 overflow-scroll snap-x no-scrollbar">
       <Card
         title="Boas-Vindas"
         description="Seja muito bem-vindo(a) ao Laboratorio 
