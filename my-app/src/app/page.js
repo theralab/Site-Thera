@@ -1,7 +1,7 @@
 import Header from "./components/home/Header";
 import TitleSection from "./components/home/TitleSection";
 import AboutSection from "./components/home/AboutSection";
-import Presentation from "./components/home/Presentation";
+import PresentationSection from "./components/home/PresentationSection";
 import ToolSection from "./components/home/ToolSection";
 import FooterSection from "./components/home/FooterSection";
 
@@ -19,7 +19,7 @@ export default function Home() {
         </div>
 
         <div className="snap-center">
-          <Presentation />
+          <PresentationSection />
         </div>
 
         <div className="snap-center">

@@ -14,7 +14,7 @@ import SHELL from "../../assets/language-powershell.png"
 
 export default function LanguagesGrid() {
   return (
-    <div className="grid md:grid-cols-4 grid-cols-2 items-center grid-rows-2 gap-x-6 gap-y-4 my-4">
+    <div className="grid md:grid-cols-4 xl:grid-cols-3 grid-cols-2 items-center grid-rows-2 gap-x-6 gap-y-4 my-4 md:mt-10 lg:mt-14">
       <Language name="JavaScript" symbol={JS} />
       <Language name="Python" symbol={PY} />
       <Language name="TypeScript" symbol={TS} />
