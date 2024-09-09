@@ -6,7 +6,7 @@ export default function Title() {
         Thera
       </h1>
       {/* Exibe "Thera Academy" para telas maiores */}
-      <h1 className="text-3xl text-white font-bold hidden sm:block">
+      <h1 className="text-3xl lg:text-4xl xl:text-5xl text-white font-bold hidden sm:block">
         Thera Academy
       </h1>
     </>

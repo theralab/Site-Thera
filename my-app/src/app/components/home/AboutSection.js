@@ -9,10 +9,10 @@ export default function AboutSection() {
       <div className="h-full justify-center items-center bg-gradient-to-t from-slate-50 to-zinc-100 md:p-40">
 
         <div className="flex flex-col justify-center items-center p-4">
-          <span className="text-2xl font-semibold sm:text-xl">
+          <span className="text-2xl sm:text-xl lg:text-[27px] xl:text-3xl font-semibold">
             Quem nós somos
           </span>
-          <p className="text-sm font-extralight text-gray-700">
+          <p className="text-sm lg:text-md xl:text-lg font-extralight text-gray-700 lg:tracking-widest lg:mt-1">
             Entenda sobre alguns detalhes
           </p>
         </div>
