@@ -1,13 +1,15 @@
+import NEXT from "../../../../assets/nextjs.svg"
+import REACT from "../../../../assets/react.svg"
+import TAILWIND from "../../../../assets/tailwind.svg"
+import GITHUB from "../../../../assets/github.svg"
+import GIT from "../../../../assets/git.svg"
+import VSCODE from "../../../../assets/vscode.svg"
+import NODE from "../../../../assets/nodejs.svg"
+import LINUX from "../../../../assets/linux.svg"
+import SPRING from "../../../../assets/springboot.svg"
+
+// Componentes
 import ToolCard from './ToolCard';
-import NEXT from "../../assets/nextjs.svg"
-import REACT from "../../assets/react.svg"
-import TAILWIND from "../../assets/tailwind.svg"
-import GITHUB from "../../assets/github.svg"
-import GIT from "../../assets/git.svg"
-import VSCODE from "../../assets/vscode.svg"
-import NODE from "../../assets/nodejs.svg"
-import LINUX from "../../assets/linux.svg"
-import SPRING from "../../assets/springboot.svg"
 
 export default function DivToolCards() {
     return (

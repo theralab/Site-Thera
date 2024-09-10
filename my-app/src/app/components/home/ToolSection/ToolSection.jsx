@@ -1,5 +1,5 @@
-import ToolGrid from "../ToolGrid/ToolGrid";
-import DivToolCards from "../ToolGrid/DivToolCards";
+import ToolGrid from "./ToolGrid/ToolGrid.jsx";
+import DivToolCards from "./DivToolCards/DivToolCards.jsx";
 
 export default function ToolSection() {
   return (

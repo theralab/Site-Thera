@@ -1,4 +1,4 @@
-import FooterGrid from "../FooterGrid/FooterGrid";
+import FooterGrid from "./FooterGrid/FooterGrid";
 
 export default function FooterSection(){
     // TODO: Dar um jeito de passar a cor dos svg dinamicamente

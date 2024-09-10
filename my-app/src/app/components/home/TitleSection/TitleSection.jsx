@@ -1,5 +1,7 @@
 import Image from "next/image";
-import logo from "../../assets/watchdogs.svg";
+
+// Componentes
+import logo from "../../../assets/watchdogs.svg";
 import Title from "./Title";
 import SubTitle from "./SubTitle";
 import Slogan from "./Slogan";

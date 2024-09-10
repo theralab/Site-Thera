@@ -1,16 +1,18 @@
+import JS from "../../../../assets/language-js.png"
+import PY from "../../../../assets/language-python.png"
+import TS from "../../../../assets/language-ts.png"
+import CPP from "../../../../assets/language-cpp.png"
+import CS from "../../../../assets/language-cs.png"
+import HTML from "../../../../assets/language-html.png"
+import JAVA from "../../../../assets/language-java.png"
+import JSON from "../../../../assets/language-json.png"
+import MD from "../../../../assets/language-markdown.png"
+import PHP from "../../../../assets/language-php.png"
+import YAML from "../../../../assets/language-yaml.png"
+import SHELL from "../../../../assets/language-powershell.png"
+
+// Componentes
 import Language from "./Language";
-import JS from "../../assets/language-js.png"
-import PY from "../../assets/language-python.png"
-import TS from "../../assets/language-ts.png"
-import CPP from "../../assets/language-cpp.png"
-import CS from "../../assets/language-cs.png"
-import HTML from "../../assets/language-html.png"
-import JAVA from "../../assets/language-java.png"
-import JSON from "../../assets/language-json.png"
-import MD from "../../assets/language-markdown.png"
-import PHP from "../../assets/language-php.png"
-import YAML from "../../assets/language-yaml.png"
-import SHELL from "../../assets/language-powershell.png"
 
 export default function LanguagesGrid() {
   return (

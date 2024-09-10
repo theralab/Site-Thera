@@ -1,8 +1,10 @@
+import GITHUB from "../../../../assets/githubFooter.svg"
+import SOF from "../../../../assets/stackOverFlow.svg"
+import REDDIT from "../../../../assets/reddit.svg"
+import LINKEDIN from "../../../..//assets/linkedIn.svg"
+
+// Componentes
 import Footer from "./Footer.jsx";
-import GITHUB from "../../assets/githubFooter.svg"
-import SOF from "../../assets/stackOverFlow.svg"
-import REDDIT from "../../assets/reddit.svg"
-import LINKEDIN from "../../assets/linkedIn.svg"
 
 export default function FooterGrid() {
     return (

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import CS from "../../assets/Desenvolvimento.png";
-import DivCards from "../BusinessCard/DivCards";
+import CS from "../../../assets/Desenvolvimento.png";
+import DivCards from "./DivCards/DivCards";
 
 export default function AboutSection() {
   return (

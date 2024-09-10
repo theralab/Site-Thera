@@ -1,4 +1,4 @@
-import LanguagesGrid from "../LanguagesGrid/LanguagesGrid";
+import LanguagesGrid from "./LanguagesGrid/LanguagesGrid";
 
 export default function PresentationSection() {
   return (
