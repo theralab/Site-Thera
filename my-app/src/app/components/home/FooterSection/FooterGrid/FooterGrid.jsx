@@ -7,12 +7,12 @@ import LINKEDIN from "../../../..//assets/linkedIn.svg"
 import Footer from "./Footer.jsx";
 
 export default function FooterGrid() {
-    return (
-        <div className="w-[195px] h-[30px] justify-between items-center inline-flex cursor-pointer sm:hidden">
-            <Footer symbol={GITHUB} name={"GitHub"} />
-            <Footer symbol={SOF} name={"StackOverFlow"} />
-            <Footer symbol={REDDIT} name={"Reddit"} />
-            <Footer symbol={LINKEDIN} name={"LinkedIn"} />
-        </div>
-    );
+  return (
+    <div className="w-[195px] h-[30px] justify-between items-center inline-flex cursor-pointer sm:hidden">
+      <Footer symbol={GITHUB} name={"GitHub"} />
+      <Footer symbol={SOF} name={"StackOverFlow"} />
+      <Footer symbol={REDDIT} name={"Reddit"} />
+      <Footer symbol={LINKEDIN} name={"LinkedIn"} />
+    </div>
+  );
 }

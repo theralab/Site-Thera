@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 @layer utilities {
-
-  /* Ainda não há uma classe específica do tailwindcss que possa esconder a barra de rolagem */ 
+  /* Ainda não há uma classe específica do tailwindcss que possa esconder a barra de rolagem */
   /* Oculta a barra de rolagem para Chrome, Safari e Opera */
   .no-scrollbar::-webkit-scrollbar {
     display: none;
@@ -22,4 +20,23 @@
 
 .text-title {
   font-size: 26px;
+}
+
+.pink-gradient {
+  background-image: linear-gradient(
+    180deg,
+    hsl(326deg 85% 90%) 0%,
+    hsl(326deg 84% 92%) 7%,
+    hsl(326deg 84% 93%) 18%,
+    hsl(327deg 84% 95%) 29%,
+    hsl(327deg 84% 97%) 40%,
+    hsl(327deg 83% 98%) 51%,
+    hsl(0deg 0% 100%) 61%,
+    hsl(327deg 83% 98%) 71%,
+    hsl(327deg 84% 97%) 80%,
+    hsl(327deg 84% 95%) 88%,
+    hsl(326deg 84% 93%) 94%,
+    hsl(326deg 84% 92%) 99%,
+    hsl(326deg 85% 90%) 100%
+  );
 }
