@@ -31,7 +31,7 @@ export default function Header() {
       maxWidth={"2xl"}
       className="lg:px-20"
     >
-      <NavbarContent justify="start">
+      <NavbarContent justify="start" className="cursor-pointer">
         <NavbarBrand>
           <TheraLogo size={42} />
           <p className="text-2xl 2xl:ml-2">Thera Academy</p>

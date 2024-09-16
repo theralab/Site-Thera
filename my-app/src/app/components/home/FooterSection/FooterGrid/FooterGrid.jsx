@@ -1,18 +1,18 @@
-import GITHUB from "../../../../assets/githubFooter.svg"
-import SOF from "../../../../assets/stackOverFlow.svg"
-import REDDIT from "../../../../assets/reddit.svg"
-import LINKEDIN from "../../../..//assets/linkedIn.svg"
+import Github from "./FooterIcons/Github";
+import Stackoverflow from "./FooterIcons/Stackoverflow";
+import Reddit from "./FooterIcons/Reddit";
+import Linkedin from "./FooterIcons/Linkedin";
 
-// Componentes
-import Footer from "./Footer.jsx";
+const color = "#676767"; // cinza
+const hoverColor = "#FFFFFF"; // branco
 
 export default function FooterGrid() {
   return (
     <div className="w-[195px] h-[30px] justify-between items-center inline-flex cursor-pointer sm:hidden">
-      <Footer symbol={GITHUB} name={"GitHub"} />
-      <Footer symbol={SOF} name={"StackOverFlow"} />
-      <Footer symbol={REDDIT} name={"Reddit"} />
-      <Footer symbol={LINKEDIN} name={"LinkedIn"} />
+      <Github size={30} color={color} hoverColor={hoverColor}></Github>
+      <Stackoverflow size={30} color={color} hoverColor={hoverColor}></Stackoverflow>
+      <Reddit size={30} color={color} hoverColor={hoverColor}></Reddit>
+      <Linkedin size={30} color={color} hoverColor={hoverColor}></Linkedin>
     </div>
   );
 }
