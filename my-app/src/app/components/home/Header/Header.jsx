@@ -34,7 +34,7 @@ export default function Header() {
       <NavbarContent justify="start" className="cursor-pointer">
         <NavbarBrand>
           <TheraLogo size={42} />
-          <p className="text-2xl 2xl:ml-2">Thera Academy</p>
+          <Link href="/" className="text-black text-2xl 2xl:ml-2">Thera Academy</Link>
         </NavbarBrand>
 
         { /* Menu para mobile */}
