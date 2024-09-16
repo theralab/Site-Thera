@@ -12,6 +12,8 @@ Este repositório é voltado para o desenvolvimento do site da Thera, que tem co
 - Sessão sobre notícias da UEMA
 - Sessão para disponibilizar artigos da comunidade, quase um fórum
     - Precisa ter css dinâmico como: somente arrastar imagens e alterar texto como preferir
+- Desenvolver a pagina para Login e Logout
+- Desenvolver a pagina para o Dashboard para o usuario
 > **Referência**: TabNews
 - Aba de tutoriais/curiosidades
     - Coisas como: O que é DevOps, Como baixar e instalar GCC, etc..
