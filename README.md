@@ -17,4 +17,3 @@ Este repositório é voltado para o desenvolvimento do site da Thera, que tem co
 > **Referência**: TabNews
 - Aba de tutoriais/curiosidades
     - Coisas como: O que é DevOps, Como baixar e instalar GCC, etc..
-teste
